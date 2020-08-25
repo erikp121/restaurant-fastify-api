@@ -1,0 +1,32 @@
+{
+  "name": "restaurant-fastify-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start-dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erikp121/restaurant-fastify-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erikp121/restaurant-fastify-api/issues"
+  },
+  "homepage": "https://github.com/erikp121/restaurant-fastify-api#readme",
+  "dependencies": {
+    "desm": "^1.0.0",
+    "fastify": "^3.2.1",
+    "fastify-autoload": "^3.0.8",
+    "pino-pretty": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
